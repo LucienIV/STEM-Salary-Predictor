@@ -1,31 +1,7 @@
-# Capstone-Project
-Group project at end of boot camp <br>
-Martha, Lucien and Cheryl
-Updated 04-24-2022
-
-### GitHub:
--	Your Main Branch has a ReadMe file 
-    -	You're reading it!
--	Your ReadMe file includes a description for how your team plans to communicate for the project
-    - Communication plan: use Slack to chat between meetings, meet up during class and office hours to work and plan together, plan additional meetings via zoom as needed
--	You have individual branches setup for each of your team members:
-    - Cheryl has the Cheryl branch
-    - Lucien has the dummy_database branch
-    - Martha has the presentation branch, also some data investigation stuff is in there
--	Each team member has at least four commits from the duration of the first segment
-
-### Presentation:
--	Include your choice of a PowerPoint, Word Document, ReadMe file, etc. with the following information
-    - The project is described in detail in this README
-    - The PowerPoint file https://github.com/mgsrichard/Capstone-Project/blob/main/Segment%202_presentation.pptx gives a more sophisticated and slightly less detailed overview/presentation of our project
-- Here is the agenda for Segment 2 Presentation: 
-    - ![image](https://user-images.githubusercontent.com/94234511/165016366-5de88506-e051-4632-9789-8604236e30a1.png)
-
 ### Topic: 
 Data Science and STEM Salaries from June 7, 2017 to August 17, 2021
   https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries
 
-- Description of your data source (feel free to include a sample of it too)
     - The Kaggle description of the data says, "62,000 salary records from top companies. This data was scraped off levels.fyi." 
     - The data has 62,642 rows, 29 columns, columns including company name, job title, salary, bonus, stock option, gender, race, and location
 ![pic of kaggle data source](https://github.com/mgsrichard/Capstone-Project/blob/main/resources/Kaggle_data_source.png)
@@ -227,5 +203,4 @@ Evaluate Supervised Learning Model - Ensemble Method - Random Forest Classificat
 - We envision two possible ways to populate the data in our web table:
     - Connect our web table to the python machine learning model and directly run the model each time a user enters search terms
     - Create a large table to input into the machine learning model which will incorporate all possible permutations of input, use the machine learning model to predict salaries for each potential query, and combine the input plus the salary predictions into a large table that is static and searched each time the user enters search terms.
-    - ![image](https://user-images.githubusercontent.com/94234511/165018712-c916da49-3c1d-46ce-9721-588e4cae3041.png)
 
